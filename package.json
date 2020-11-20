@@ -1,0 +1,22 @@
+{
+  "name": "jsbinance",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "dev": "nodemon main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "binance-api-node": "^0.10.9",
+    "ichimoku": "^1.0.4",
+    "qs": "^6.9.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
